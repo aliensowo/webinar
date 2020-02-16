@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <title>WEB-MODELS</title>
+
+
+</head>
+<body>
+<div id="container">
+    {% include 'include/header.html' %}
+
+    {% include 'include/chat.html' %}
+        <div class="clear"></div>
+    {% include 'include/footer.html' %}
+    </div>
+</body>
+</html>
+
